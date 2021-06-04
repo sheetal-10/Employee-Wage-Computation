@@ -30,6 +30,6 @@ do
 	dailyWage[i]=$((workingHr*wagePerHour))
 	totalWorkingHr=$((totalWorkingHr+workingHr))
 done
-echo "Employee Daily wage : ${dailyWage[@]}"
+echo "Daily wage : ${dailyWage[@]}"
 monthSalary=$((wagePerHour*totalWorkingHr))
 echo "Employee monthly wage : $monthSalary"
